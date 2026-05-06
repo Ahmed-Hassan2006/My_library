@@ -1,0 +1,19 @@
+{
+    "name": "WinRAR",
+    "description": "A powerful archive manager.",
+    "source": "", 
+    "version": "6.21",
+    "os": "Windows 10/11",
+    "type": "Installer",
+    "url": "https://www.rarlab.com/rar/winrar-x64-621.exe"
+  },
+  {
+    "name": "Rufus",
+    "description": "Create bootable USB drives the easy way.",
+    "source": "Rufus Official",
+    "version": "4.2",
+    "os": "Windows",
+    "type": "Portable",
+    "url": "https://github.com/pbatard/rufus/releases/download/v4.2/rufus-4.2.exe"
+  }
+]
