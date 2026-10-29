@@ -1,0 +1,210 @@
+{
+  "version": 3,
+  "updated": "2026-10-29",
+  "note": "ملف فهرس الكتب الخارجي. يُفحص من الشبكة في كل فتح للتطبيق وكل ضغط على الرئيسية وكل دخول لقسم — بلا أي كاش. المسار ينشئ الأقسام بكل مستوياته تلقائياً، وإن لم يوجد القسم في التطبيق يُنشأ قسم رئيسي بنفس الاسم. الكتاب يوضع داخل آخر قسم في المسار. path فارغ = الكتاب يظهر بجانب الأقسام الرئيسية. حقل order = ترتيب الكتاب داخل قسمه، وsectionOrder = ترتيب القسم الرئيسي (أول جزء من المسار)، وترتيب الإدراج فعلي: رقم 2 يجعل القسم ثانياً وينزل من كان ثانياً إلى ثالث. يمكن أيضاً ضبط ترتيب أي قسم بالمسار الكامل عبر مصفوفة sections. cardUrl = رابط ملف البطاقة النصي txt أو html. العلامات داخل النص: <<<RK-TOPIC: العنوان>>> و<<<RK-PAGE: رقم الصفحة>>>.",
+  "sections": [
+    {
+      "path": "تعليم",
+      "order": 2
+    },
+    {
+      "path": "تعليم/ابتدائي",
+      "order": 1
+    },
+    {
+      "path": "تعليم/ابتدائي/الصف الأول الابتدائي",
+      "order": 1
+    },
+    {
+      "path": "تعليم/ابتدائي/الصف الأول الابتدائي/الترم الثاني",
+      "order": 1
+    },
+    {
+      "path": "البرمجة",
+      "order": 3
+    },
+    {
+      "path": "القانون",
+      "order": 4
+    }
+  ],
+  "books": [
+    {
+      "id": "edu-grade1-term2-arabic",
+      "title": "اللغة العربية — الصف الأول الابتدائي — الترم الثاني",
+      "author": "وزارة التربية والتعليم",
+      "path": "تعليم/ابتدائي/الصف الأول الابتدائي/الترم الثاني",
+      "mode": "topics",
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/edu-grade1-term2-arabic.txt",
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/edu-grade1-term2-arabic.txt",
+      "order": 1,
+      "sectionOrder": 2,
+      "description": "كتاب اللغة العربية للصف الأول الابتدائي، الترم الثاني، مقسّم إلى موضوعات وصفحات واضحة."
+    },
+    {
+      "id": "edu-grade1-term2-math",
+      "title": "الرياضيات — الصف الأول الابتدائي — الترم الثاني",
+      "author": "وزارة التربية والتعليم",
+      "path": "تعليم/ابتدائي/الصف الأول الابتدائي/الترم الثاني",
+      "mode": "topics",
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/edu-grade1-term2-math.html",
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/edu-grade1-term2-math.html",
+      "order": 2,
+      "description": "كتاب الرياضيات للصف الأول الابتدائي، الترم الثاني. بطاقة الكتاب تشير إلى ملف HTML."
+    },
+    {
+      "id": "edu-grade1-term1-arabic",
+      "title": "اللغة العربية — الصف الأول الابتدائي — الترم الأول",
+      "author": "وزارة التربية والتعليم",
+      "path": "تعليم/ابتدائي/الصف الأول الابتدائي/الترم الأول",
+      "mode": "direct",
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/edu-grade1-term1-arabic.txt",
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/edu-grade1-term1-arabic.txt",
+      "order": 1,
+      "description": "كتاب اللغة العربية للصف الأول الابتدائي، الترم الأول، قراءة مباشرة بصفحات تلقائية."
+    },
+    {
+      "id": "programming-python-basics",
+      "title": "أساسيات البرمجة بلغة بايثون",
+      "author": "فريق التعليم التقني",
+      "path": "البرمجة/بايثون",
+      "mode": "topics",
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/python-basics.txt",
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/python-basics.txt",
+      "order": 1,
+      "sectionOrder": 3,
+      "description": "مثال على قسم رئيسي جديد تماماً اسمه «البرمجة» يُنشأ تلقائياً من المسار، وترتيبه الثالث."
+    },
+    {
+      "id": "programming-web-html",
+      "title": "تعلّم HTML من الصفر",
+      "author": "فريق التعليم التقني",
+      "path": "البرمجة/تطوير الويب",
+      "mode": "direct",
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/html-basics.html",
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/html-basics.html",
+      "order": 1,
+      "description": "مثال على كتاب داخل قسم فرعي جديد «تطوير الويب» تحت القسم الرئيسي «البرمجة»."
+    },
+    {
+      "id": "law-civil-transactions",
+      "title": "قانون المعاملات المدنية",
+      "author": "قانون سلطنة عمان",
+      "path": "القانون/قوانين السلطنة/قانون المعاملات المدنية",
+      "mode": "topics",
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/civil-transactions.txt",
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/civil-transactions.txt",
+      "order": 1,
+      "description": "مثال على مسار يبدأ بقسم رئيسي موجود بالفعل «القانون» فيُضاف إليه دون إنشاء قسم مكرر."
+    },
+    {
+      "id": "tafseer-fatiha",
+      "title": "تفسير سورة الفاتحة",
+      "author": "اسم المؤلف",
+      "path": "التفسير/تفسير سورة الفاتحة",
+      "mode": "topics",
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/tafseer-fatiha.txt",
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/tafseer-fatiha.txt",
+      "order": 1,
+      "description": "مثال على مسار يبدأ بقسم فرعي موجود بالفعل «التفسير» فيُدمج الكتاب داخل القسم نفسه."
+    },
+    {
+      "id": "standalone-short-stories",
+      "title": "مجموعة قصص قصيرة",
+      "author": "اسم المؤلف",
+      "path": "",
+      "mode": "direct",
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/short-stories.txt",
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/short-stories.txt",
+      "order": 1,
+      "description": "مثال على كتاب بلا مسار: يظهر في الرئيسية بجانب الأقسام الرئيسية مباشرة."
+    },
+    {
+      "id": "demo-inline",
+      "title": "كتاب تجريبي يعمل بدون إنترنت",
+      "author": "فريق المكتبة",
+      "path": "علوم أخرى/كتب تجريبية",
+      "mode": "topics",
+      "content": "<<<RK-TOPIC: الموضوع الأول>>>\nهذا هو نص الموضوع الأول. كل موضوع يظهر في صفحة مستقلة داخل التطبيق.\n<<<RK-TOPIC: الموضوع الثاني>>>\nهذا نص الموضوع الثاني. يمكن استبداله بمحتوى حقيقي أو حذف الحقل content ووضع رابط ملف بدلاً منه.\n<<<RK-TOPIC: الموضوع الثالث>>>\nوهذا نص الموضوع الثالث والأخير في المثال التجريبي.",
+      "order": 1,
+      "description": "كتاب بنص مباشر داخل ملف الجيسون لا يحتاج إلى أي ملف خارجي."
+    },
+    {
+      "id": "demo-multi-files",
+      "title": "كتاب من عدة ملفات (كل رابط صفحة)",
+      "author": "اسم المؤلف",
+      "path": "علوم أخرى/كتب متعددة الملفات",
+      "mode": "direct",
+      "files": [
+        "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/part-1.txt",
+        "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/part-2.txt"
+      ],
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/part-1.txt",
+      "order": 2,
+      "description": "مثال على كتاب مقسّم إلى عدة ملفات، كل ملف يظهر كصفحة."
+    },
+    {
+      "id": "demo-explicit-topics",
+      "title": "كتاب بموضوعات معرفة صراحة",
+      "author": "اسم المؤلف",
+      "path": "علوم أخرى/موضوعات صريحة",
+      "mode": "topics",
+      "topics": [
+        {
+          "title": "مقدمة الكتاب",
+          "url": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/topic-1.txt"
+        },
+        {
+          "title": "الفصل الأول",
+          "url": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/topic-2.txt"
+        }
+      ],
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/topic-1.txt",
+      "order": 3,
+      "description": "مثال على موضوعات صريحة بأسماء وروابط، مع بطاقة تشير إلى أول ملف نصي."
+    },
+    {
+      "id": "demo-docx",
+      "title": "كتاب Word — كل صفحة في الملف صفحة في التطبيق",
+      "author": "اسم المؤلف",
+      "path": "الهندسة وتكنولوجيا المعلومات/الهندسة التطبيقية",
+      "mode": "topics",
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/example.docx",
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/example.docx",
+      "order": 1,
+      "description": "مثال على كتاب DOCX مع بطاقة تشير إلى الملف."
+    },
+    {
+      "id": "demo-html",
+      "title": "الإعلان العالمي لحقوق الإنسان (صفحة ويب)",
+      "author": "الأمم المتحدة",
+      "path": "القانون/القوانين العربية",
+      "mode": "direct",
+      "source": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A_%D9%84%D8%AD%D9%82%D9%88%D9%82_%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86",
+      "cardUrl": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A_%D9%84%D8%AD%D9%82%D9%88%D9%82_%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86",
+      "order": 2,
+      "description": "مثال على بطاقة تشير إلى صفحة HTML خارجية."
+    },
+    {
+      "id": "demo-folder",
+      "title": "كتاب من مجلد GitHub — كل ملف صفحة",
+      "author": "اسم المؤلف",
+      "path": "الرياضيات/جبر/مدخل الجبر",
+      "mode": "direct",
+      "source": "https://github.com/Ahmed-Hassan2006/My_library/tree/main/books/algebra",
+      "order": 1,
+      "description": "مثال على مصدر مجلد كامل؛ كل ملف داخله يظهر كصفحة."
+    },
+    {
+      "id": "demo-txt-markers",
+      "title": "كتاب نصي بعلامات الموضوعات والصفحات",
+      "author": "اسم المؤلف",
+      "path": "القانون/قوانين السلطنة/قوانين السلطان فلان",
+      "mode": "topics",
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/example-markers.txt",
+      "cardUrl": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/books/example-markers.txt",
+      "order": 2,
+      "description": "مثال على ملف نصي يحتوي علامات الموضوعات وعلامات الصفحات."
+    }
+  ]
+}
