@@ -19,7 +19,7 @@
       "language": "عربي",
       "mode": "direct",
       "order": 1,
-      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/data_books/Stories_of_the_Prophets/02.docx"
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/data_books/Stories_of_the_Prophets/01.docx"
     },
     {
       "id": "12=-492=-492-copy",
@@ -30,8 +30,20 @@
       "year": "2026",
       "language": "عربي",
       "mode": "direct",
-      "order": 1,
-      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/data_books/قصص_الأنبياء/02%20-%20شيث%20عليه%20السلام.docx"
+      "order": 2,
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/data_books/Stories_of_the_Prophets/02.docx"
+    },
+    {
+      "id": "12=-492=-492-copy-copy",
+      "title": "إدريس عليه السلام",
+      "author": "بوابة القراءة والمعرفة",
+      "path": "متنوعات إسلامية/قصص الأنبياء",
+      "publisher": "أمير النور",
+      "year": "2026",
+      "language": "عربي",
+      "mode": "direct",
+      "order": 3,
+      "source": "https://raw.githubusercontent.com/Ahmed-Hassan2006/My_library/main/data_books/Stories_of_the_Prophets/03.docx"
     },
     {
       "id": "97572346587170",
